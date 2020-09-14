@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PatternsHM2", "PatternsHM2\PatternsHM2.vcxproj", "{235988DB-3E0E-4CF4-A9EA-0DDA3A57F572}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proxy", "PatternsHM2\PatternsHM2.vcxproj", "{235988DB-3E0E-4CF4-A9EA-0DDA3A57F572}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bridge", "Bridge\Bridge.vcxproj", "{1AC0B37D-901C-4E12-BB8C-788C599DCA6B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adapter", "Adaper\task03.vcxproj", "{3BD83D91-8569-47A5-A736-044D47CE9102}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{235988DB-3E0E-4CF4-A9EA-0DDA3A57F572}.Release|x64.Build.0 = Release|x64
 		{235988DB-3E0E-4CF4-A9EA-0DDA3A57F572}.Release|x86.ActiveCfg = Release|Win32
 		{235988DB-3E0E-4CF4-A9EA-0DDA3A57F572}.Release|x86.Build.0 = Release|Win32
+		{1AC0B37D-901C-4E12-BB8C-788C599DCA6B}.Debug|x64.ActiveCfg = Debug|x64
+		{1AC0B37D-901C-4E12-BB8C-788C599DCA6B}.Debug|x64.Build.0 = Debug|x64
+		{1AC0B37D-901C-4E12-BB8C-788C599DCA6B}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AC0B37D-901C-4E12-BB8C-788C599DCA6B}.Debug|x86.Build.0 = Debug|Win32
+		{1AC0B37D-901C-4E12-BB8C-788C599DCA6B}.Release|x64.ActiveCfg = Release|x64
+		{1AC0B37D-901C-4E12-BB8C-788C599DCA6B}.Release|x64.Build.0 = Release|x64
+		{1AC0B37D-901C-4E12-BB8C-788C599DCA6B}.Release|x86.ActiveCfg = Release|Win32
+		{1AC0B37D-901C-4E12-BB8C-788C599DCA6B}.Release|x86.Build.0 = Release|Win32
+		{3BD83D91-8569-47A5-A736-044D47CE9102}.Debug|x64.ActiveCfg = Debug|x64
+		{3BD83D91-8569-47A5-A736-044D47CE9102}.Debug|x64.Build.0 = Debug|x64
+		{3BD83D91-8569-47A5-A736-044D47CE9102}.Debug|x86.ActiveCfg = Debug|Win32
+		{3BD83D91-8569-47A5-A736-044D47CE9102}.Debug|x86.Build.0 = Debug|Win32
+		{3BD83D91-8569-47A5-A736-044D47CE9102}.Release|x64.ActiveCfg = Release|x64
+		{3BD83D91-8569-47A5-A736-044D47CE9102}.Release|x64.Build.0 = Release|x64
+		{3BD83D91-8569-47A5-A736-044D47CE9102}.Release|x86.ActiveCfg = Release|Win32
+		{3BD83D91-8569-47A5-A736-044D47CE9102}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
